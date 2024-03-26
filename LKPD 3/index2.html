@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let angka = 200;
+        // let s;
+        // let p;
+        // let r;
+
+        // s = angka % 10;
+        // p = Math.floor(angka % 100 / 10);
+        // r = Math.floor(angka % 1000) / 100;
+
+        // console.log(` ratusan ${r} puluhan ${p} satuan ${p} `);
+    let bilangan = 12345
+
+    let satuan = bilangan % 10
+    let puluhan = Math.floor (bilangan /10) %10
+    let ratusan = Math.floor (bilangan /100) %10
+    let ribuan = Math.floor (bilangan /1000) %10
+    let puluhan_ribu = Math.floor (bilangan /10000) %100
+
+    console.log (` satuan ${satuan} puluhan ${puluhan} ratusan ${ratusan} ribuan ${ribuan} puluhan_ribu ${puluhan_ribu}`)
+    </script>
+</body>
+
+</html>
